@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Refresh this repository's copies of the LZBank files from the NextBuild tree.
 
-    python/bin/python Sources/LZBank/tools/sync.py           copy the current files in
-    python/bin/python Sources/LZBank/tools/sync.py --check   only report what differs
+    python/bin/python Sources/LZBank/utils/sync.py           copy the current files in
+    python/bin/python Sources/LZBank/utils/sync.py --check   only report what differs
 
 NextBuild holds the working copies (Scripts/, Tools/). The repository
 carries the same files at the same relative paths, so a clone can be copied

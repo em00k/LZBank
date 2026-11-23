@@ -21,7 +21,7 @@
 '   48-54    data/slides.lzb                            BK_SLIDES
 '   64-74    buffer B: pixels 64-73, palette in 74      (NR $12 = 32)
 '
-' Rebuild the data: python/bin/python Sources/LZBank/tools/make_slides.py
+' Rebuild the data: python/bin/python Sources/LZBank/utils/make_slides.py
 ' Tests:            python/bin/python Sources/LZBank/tests/test_lzbank.py
 
 '!org=$8000

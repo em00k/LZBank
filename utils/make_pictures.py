@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the demo's data: six 320x256 pictures as one stream, packed.
 
-    python/bin/python Sources/LZBank/tools/make_pictures.py
+    python/bin/python Sources/LZBank/utils/make_pictures.py
 
 Each picture is a ReadIFF .nxi (81920 bytes of pixels + 512 of palette),
 padded to 12 pages (96K) so that every one starts on an even page, which is

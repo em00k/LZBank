@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build LZBankAt's data: six 320x256 pictures as a bundle of six streams.
 
-    python/bin/python Sources/LZBank/tools/make_slides.py
+    python/bin/python Sources/LZBank/utils/make_slides.py
 
 Each .nxi (81920 bytes of pixels + 512 of palette) is packed on its own, so
 the program can unpack any one of them with LZDepackBankAt. The bundle

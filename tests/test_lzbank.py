@@ -19,7 +19,7 @@ PROJECT = HERE.parent
 ROOT = PROJECT.parents[1]
 sys.path.insert(0, str(ROOT / "Sources" / "Tests"))
 sys.path.insert(0, str(ROOT / "Scripts" / "tools"))
-sys.path.insert(0, str(PROJECT / "tools"))
+sys.path.insert(0, str(PROJECT / "utils"))
 from _next import Next, build_project, Checks                  # noqa: E402
 import lzbank                                                   # noqa: E402
 import make_pictures                                            # noqa: E402
@@ -94,7 +94,7 @@ def main():
     rnd = random.Random(7)
 
     c.section("repository copies")
-    c("Scripts/ and Tools/ here match NextBuild's (tools/sync.py)", sync.stale(), [])
+    c("Scripts/ and Tools/ here match NextBuild's (utils/sync.py)", sync.stale(), [])
 
     c.section("packer: the bank rule, and ZX0 v2 compatibility")
     for n in (1, 2, 3, 100, 9000):

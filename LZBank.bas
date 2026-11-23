@@ -14,7 +14,7 @@
 '   64-135   six pictures, 12 pages each: pixels in     BK_PICS
 '            the first 10, the palette at the start of the 11th
 '
-' Rebuild the data: python/bin/python Sources/LZBank/tools/make_pictures.py
+' Rebuild the data: python/bin/python Sources/LZBank/utils/make_pictures.py
 ' Tests:            python/bin/python Sources/LZBank/tests/test_lzbank.py
 
 '!org=$8000

@@ -163,6 +163,6 @@ The examples use pictures from `Sources/ReadIFF/assets/`. To pack them again
 (these scripts use the `lzbank` program):
 
 ```
-python Sources/LZBank/tools/make_pictures.py      (data/pictures.lzb, for LZBank.bas)
-python Sources/LZBank/tools/make_slides.py        (data/slides.lzb, for LZBankAt.bas)
+python Sources/LZBank/utils/make_pictures.py      (data/pictures.lzb, for LZBank.bas)
+python Sources/LZBank/utils/make_slides.py        (data/slides.lzb, for LZBankAt.bas)
 ```
